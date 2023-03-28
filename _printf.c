@@ -52,7 +52,6 @@ int _printf(const char *format, ...)
 	va_end(list);
 
 	return (printed_chars);
-	_putchar('\n');
 }
 
 /**
